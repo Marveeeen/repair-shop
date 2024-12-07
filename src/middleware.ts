@@ -5,7 +5,7 @@ export default withAuth(
     async function middleware(request: NextRequest) {
         console.log(request)
     }, {
-    isReturnCUrrentPage: true
+    isReturnCurrentPage: true
 }
 )
 
